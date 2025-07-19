@@ -14,7 +14,7 @@ def image_to_bytes(img):
     return buf.read()
 
 st.set_page_config(page_title="Latent Doodles Sandbox", layout="centered")
-st.title("🎨 Latent Doodles – Interactive Art Sandbox (Local)")
+st.title("Latent Doodles – Interactive Art Sandbox (Local)")
 st.write("Draw a doodle and watch AI turn it into art. All runs locally, no API!")
 
 @st.cache_resource
