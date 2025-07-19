@@ -1,0 +1,8 @@
+echo "streamlit
+streamlit-drawable-canvas
+pillow
+torch
+diffusers
+transformers
+accelerate
+opencv-python" > requirements.txt
